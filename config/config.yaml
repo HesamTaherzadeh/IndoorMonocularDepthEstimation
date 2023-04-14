@@ -1,0 +1,18 @@
+Model:
+  dataset path : /home/zahra/Hesam/DIODE
+  optimizer : adam
+
+  batch size : 4
+  epoch : 50
+
+  learning rate schedule:
+    learning_rate : 0.0002
+    learning_rate_decay_steps : 100000
+    learning_rate_decay_rate : 0.90
+
+  early stopping:
+   type: loss
+   patience : 5
+
+
+
